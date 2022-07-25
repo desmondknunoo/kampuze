@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2d4049"
+    tools:context=".Splash" ><!-- #59b2aa -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:text="Version 1.0 BETA"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#e2e2e2" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:text="© 2016 NDK Productions"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#e2e2e2" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_below="@+id/TextView02"
+        android:text="All rights reserved."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#e2e2e2" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView01"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+    
+</RelativeLayout>

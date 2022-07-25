@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <PreferenceCategory android:title="			SETTINGS">
+        
+    </PreferenceCategory>
+     <Preference
+   		        	    android:title="Language"
+        				android:selectable="true"
+        				android:onClick="@layout/language">
+        				<intent
+        				    android:action="android.intent.action.VIEW"
+        				    android:targetPackage="com.ndk.kampuze"
+        				    android:targetClass="com.ndk.kampuze.Language"/>
+        				</Preference>
+   		   			 <Preference
+   		        	    android:title="Notifications"
+        				android:selectable="true"
+        				android:onClick="@layout/notification">
+        				<intent
+        				    android:action="android.intent.action.VIEW"
+        				    android:targetPackage="com.ndk.kampuze"
+        				    android:targetClass="com.ndk.kampuze.Notification"/>
+        				</Preference>
+        				
+     <PreferenceCategory android:title="			CONTACT US">
+        
+   										 </PreferenceCategory>
+   										 
+   		   			 <Preference
+   		        	    android:title="Get Published"
+        				android:selectable="true"
+        				android:summary="Send us BREAKING NEWS, articles, announcements. etc"
+        				android:onClick="@layout/get_published">
+        				<intent
+        				    android:action="android.intent.action.VIEW"
+        				    android:targetPackage="com.ndk.kampuze"
+        				    android:targetClass="com.ndk.kampuze.GetPublished"/>
+        				</Preference>
+        				
+        				
+        				<Preference
+   		        	    android:title="Help"
+        				android:summary="Contact support, Report a Problem, FAQ"
+        				android:selectable="true"
+        				android:onClick="@layout/help">
+        				<intent
+        				    android:action="android.intent.action.VIEW"
+        				    android:targetPackage="com.ndk.kampuze"
+        				    android:targetClass="com.ndk.kampuze.Help"/>
+        				</Preference> 
+        				
+        					
+   		   			 <PreferenceCategory android:title="			ABOUT US">
+        
+   										 </PreferenceCategory>
+        				<Preference
+   		        	    android:title="App"
+        				android:selectable="true"
+        				android:summary="Version 1.0"
+        				android:onClick="@layout/about_app">
+        				<intent
+        				    android:action="android.intent.action.VIEW"
+        				    android:targetPackage="com.ndk.kampuze"
+        				    android:targetClass="com.ndk.kampuze.AboutApp"/>
+        				</Preference>
+        				<Preference
+   		        	    android:title="Developers"
+        				android:selectable="true"
+        				android:onClick="@layout/developer">
+        				<intent
+        				    android:action="android.intent.action.VIEW"
+        				    android:targetPackage="com.ndk.kampuze"
+        				    android:targetClass="com.ndk.kampuze.Developer"/>
+        				</Preference>
+        				<Preference
+   		        	    android:title="Support us by rating this app"
+        				android:selectable="true"
+        				android:onClick="@layout/rate">
+        				<intent
+        				    android:action="android.intent.action.VIEW"
+        				    android:targetPackage="com.ndk.kampuze"
+        				    android:targetClass="com.ndk.kampuze.Rate"/>
+        				</Preference>
+        				
+        				<Preference
+   		        	    android:title="Terms of Service"
+        				android:selectable="true"
+        				android:onClick="@layout/terms">
+        				<intent
+        				    android:action="android.intent.action.VIEW"
+        				    android:targetPackage="com.ndk.kampuze"
+        				    android:targetClass="com.ndk.kampuze.Terms"/>
+        				</Preference>
+        				<Preference
+   		        	    android:title="Open Source License"
+        				android:selectable="true"
+        				android:onClick="@layout/open_source">
+        				<intent
+        				    android:action="android.intent.action.VIEW"
+        				    android:targetPackage="com.ndk.kampuze"
+        				    android:targetClass="com.ndk.kampuze.OpenSource"/>
+        				</Preference>
+
+               	   <!-- android:layout="@layout/about_app"  this can be used for wix.com-->    
+</PreferenceScreen>

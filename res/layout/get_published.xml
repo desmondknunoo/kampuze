@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/ab_bg">
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Submit"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/TextView01v"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="22dp"
+        android:background="#2d4049"
+        android:gravity="center"
+        android:text="© 2016 Kampuze. All rights reserved."
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@+id/textView1z"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="Enter text with your full name here..."
+        android:inputType="textMultiLine" />
+
+    <ImageButton
+        android:id="@+id/ImageButton06"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignRight="@+id/Button1"
+        android:layout_alignTop="@+id/ImageButton05"
+        android:background="@drawable/fb" />
+
+    <ImageButton
+        android:id="@+id/ImageButton05"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/Button1"
+        android:layout_below="@+id/Button1"
+        android:background="@drawable/tw"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/ImageButton04"
+        android:layout_width="51dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/ImageButton05"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ig_two"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/textView1z"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Button1"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:background="#2d4049"
+        android:text="Attach docs, images.etc after pressing the “Send”"
+        android:textColor="#ffffff" />
+   
+</RelativeLayout>
